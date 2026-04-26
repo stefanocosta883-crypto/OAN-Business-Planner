@@ -1,0 +1,12 @@
+{
+  "name": "officina-agricola-nazario",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Agri-Business Planner — Officina Agricola Nazario",
+  "workspaces": ["app"],
+  "scripts": {
+    "dev": "npm run dev --workspace=app",
+    "build": "npm run build --workspace=app",
+    "preview": "npm run preview --workspace=app"
+  }
+}
